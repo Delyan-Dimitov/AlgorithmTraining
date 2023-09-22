@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{DCED1D64-595B-4D2D-8F48-42436D05F7F0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{69DD52AA-ACFD-4144-8EE1-61E48B3EC360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{0CC2962A-F535-4C1F-A417-968F9A0B4841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{DCED1D64-595B-4D2D-8F48-42436D05F7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCED1D64-595B-4D2D-8F48-42436D05F7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCED1D64-595B-4D2D-8F48-42436D05F7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC2962A-F535-4C1F-A417-968F9A0B4841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC2962A-F535-4C1F-A417-968F9A0B4841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC2962A-F535-4C1F-A417-968F9A0B4841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC2962A-F535-4C1F-A417-968F9A0B4841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6782891F-7C7B-44C0-9A7A-854C197A035D} = {4C1DA25A-6284-4008-A43A-C1365DCE5B40}
 		{DCED1D64-595B-4D2D-8F48-42436D05F7F0} = {4C1DA25A-6284-4008-A43A-C1365DCE5B40}
+		{0CC2962A-F535-4C1F-A417-968F9A0B4841} = {69DD52AA-ACFD-4144-8EE1-61E48B3EC360}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2867F5AD-D82B-4FD0-A37C-F762CF076F0C}
